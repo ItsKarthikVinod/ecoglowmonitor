@@ -1,0 +1,368 @@
+/* Custom Fonts */
+@font-face {
+  font-family: Open Sans;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+}
+
+/* Default CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+  
+  
+}
+
+body {
+  font-weight: 400;
+  overflow: initial;
+  position: relative;
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Open Sans';
+  scroll-padding-top: 1em;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+p{
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  ;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none
+}
+
+@media (min-width: 1700px) {
+  main.container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+.navbar{
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p.success {
+  color: green
+}
+
+p.danger {
+  color: red
+}
+
+/* End of default css */
+
+/* Navbar */
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"]#basic-navbar-nav {
+  background: rgb(190, 85, 85);
+  padding: 20px;
+  border-radius: 3%;
+  transition: all 300ms linear;
+
+}
+
+.kar>.navbar-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 40px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+nav.navbar a.navbar-brand {
+  width: 20%;
+}
+
+/*Banner*/
+.addNewBtn {
+  background-color: rgba(32, 32, 165, 1) ;
+  color: #fff ;
+  border-radius: 10px;
+  padding: 10px;
+  height: 44px;
+  margin: 10px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.link-add-new{
+  color: #fff ;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  background: rgba(32, 32, 165, 1);
+}
+
+.addNewBtn:hover {
+  background-color: rgb(21, 21, 106);
+  color: #fff
+}
+
+.addNewBtn:hover .link-add-new {
+  color: #fff;
+  background-color: rgb(21, 21, 106)
+}
+
+.link-add-new:hover {
+  color: #fff
+}
+
+.learnBtn {
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  height: 44px;
+  margin: 10px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.link-learn{
+  color: black;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.learnBtn:hover {
+  background-color: #171717;
+  color: #fff
+}
+
+.learnBtn:hover .link-learn{
+  color: #fff
+}
+
+.link-learn:hover{
+  color: #fff
+}
+
+.col1 h1 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+
+}
+
+.col1 p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 5%
+}
+
+.banner {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  width: 100%;
+  padding: 4.9%;
+
+}
+
+
+
+.banner img {
+  animation: updown 3s linear infinite;
+  width: 60rem;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px)
+  }
+
+  50% {
+    transform: translateY(20px)
+  }
+
+  100% {
+    transform: translateY(-20px)
+  }
+}
+
+.row1 {
+  margin: 0 10%;
+  
+}
+
+/*Add*/
+
+.h1Text{
+  color: #5000A1;
+  font-family: 'Open Sans';
+}
+
+
+/*Features*/
+
+
+.imgContainer {
+  width: 250px;
+  background: linear-gradient(180.18deg, #004C53 8.19%, #3DA8B2 99.84%);
+  border-radius: 81px;
+  padding: 10px;
+  
+}
+
+.addNewBtn2 {
+  background-color: #6363CA;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  height: 44px;
+  margin: 10px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.link-add-new2 {
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  background: #6363CA;
+}
+
+.addNewBtn2:hover {
+  background-color: #2d2d5a;
+  color: #fff
+}
+
+.addNewBtn2:hover .link-add-new2 {
+  color: #fff;
+  background-color: #2d2d5a
+}
+
+/*About Us */
+.aboutHead{
+  font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    
+  
+    color: #000000;
+}
+
+.emailBtn {
+  background-color: #086169;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  height: 44px;
+  margin: 10px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.link-email {
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  background: #086169;
+}
+
+.emailBtn:hover {
+  background-color: #042c30;
+  color: #fff
+}
+
+.emailBtn:hover .link-email {
+  color: #fff;
+  background-color: #042c30
+}
+
+.photo{
+  mix-blend-mode: darken;
+  box-shadow: 12px 16px 15px 6px rgba(0, 0, 0, 0.26);
+  background-color: white;
+}
+
+
+body {
+  text-align: center;
+  background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
